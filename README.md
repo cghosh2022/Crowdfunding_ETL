@@ -1,16 +1,15 @@
 # Crowdfunding_ETL
 
-Instructions
-This mini project is divided into the following subsections:
+This project is divided into the following subsections:
 
-Created the Category and Subcategory DataFrames
-Created the Campaign DataFrame
-Created the Contacts DataFrame
-Created the Crowdfunding Database
+* Created the Category and Subcategory DataFrames
+* Created the Campaign DataFrame
+* Created the Contacts DataFrame
+* Created the Crowdfunding Database
 
 Category and Subcategory DataFrames
 Extracted and transformed the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
-	A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
+	A `category_id` column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 	A "category" column that contains only the category titles
 
 Exported the category DataFrame as category.csv and saved it
